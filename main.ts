@@ -1,3 +1,6 @@
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    basic.showNumber(input.temperature())
+})
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(最高温度)
 })
